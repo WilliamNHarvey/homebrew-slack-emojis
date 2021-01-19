@@ -3,7 +3,7 @@ class SlackEmojis < Formula
   homepage "https://github.com/WilliamNHarvey/homebrew-slack-emojis"
   url "https://raw.githubusercontent.com/WilliamNHarvey/homebrew-slack-emojis/main/slack-emojis"
   version "0.1.0"
-  sha256 "f393f2e69ccd55bcd3c368440c7a8bc725f347d5c5954f9791e53983cb016267"
+  sha256 "f0601bfab8d732550b9d4a11a56ecc809e6c7708a6d4748fb12a8179399c02b2"
 
   def install
     bin.install "slack-emojis"
