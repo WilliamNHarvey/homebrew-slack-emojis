@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+str = ARGV[0]
+output = str.each_char.reduce("") do |acc, c|
+  case c
+  when  " "
+    acc + "   "
+  when  "!"
+    acc + ":alphabet-white-exclamation:"
+  when  "?"
+    acc + ":question:"
+  else
+    acc + ":alphabet-white-#{c}:"
+  end
+end
+puts output
